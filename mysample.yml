@@ -8,7 +8,6 @@
       state: present
 
   - name: i want to start webserver
-    apt: 
+    service: 
       name: apache2
-      service: restarted
-      
+      state: restarted
