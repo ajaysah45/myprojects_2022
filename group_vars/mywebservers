@@ -1,5 +1,4 @@
 ---
- var: value
- mywebpageonubuntu: apache2
- mywebpageonredhat: httpd
- 
+var: value
+mywebpageonubuntu: apache2
+mywebpageonredhat: httpd
